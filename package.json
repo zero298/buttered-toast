@@ -1,0 +1,20 @@
+{
+  "name": "buttered-toast",
+  "version": "0.0.2",
+  "description": "AngularJS module that wraps the HTML5 Notification API",
+  "scripts": {
+    "start": "http-server -p 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notification"
+  ],
+  "author": "Stephen K",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
+}

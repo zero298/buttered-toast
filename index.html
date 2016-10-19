@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Notification Test</title>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="src/buttered-toast.js"></script>
+    <script src="test/buttered-toast.test.js"></script>
+</head>
+
+<body>
+    <main ng-app="notifyTest" ng-strict-di="true">
+        <section ng-controller="NotifyCtrl as vm">
+            <button type="button" ng-click="vm.onBtnClick($event)">Notify</button>
+        </section>
+    </main>
+</body>
+
+</html>
